@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Jura|Russo+One" rel="stylesheet">
+    <title>Weapon Clash</title>
+</head>
+<body>
+    <container id="wrapper">
+      <div class="row">
+          <div class="col-sm-10">
+              <h1>Welcome to Weapon Clash:</h1>
+          </div> 
+          <div class="col-sm-2">
+          </div>
+      </div>  
+      <div class="row">
+          <div class="col-sm-4">
+              <h2>Try to match this Weapon Level: <span id="level-to-guess"></span></h2>
+              <h2>Your weapons level is: <span id="userlevel">0</span></h2>
+          </div>
+          <div class="col-sm-4">
+              <h4><p>You have four weapons, each one has a random level assigned to it which will stick through out each game.</p>
+                  <p>Your goal is to match your level to the target level by increasing it as you choose the weapons.</p>
+                  <p>Once you match the target level with yours, you win! But if you go over the target level, then you lose!</p>
+                  <p>Game will restart once you win or lose but will be recorderd in the score board which will stay until you refresh the page.</p></h4>
+          </div>
+          <div class="col-sm-2">
+              <h5><strong>Wins:<span id="userwins"> 0</span></strong> </h5>
+              <h5><strong>Losses: <span id="userlosses"> 0</span></strong> </h5>
+              <div id="restart-button"></div>
+          </div>
+          <div class="col-sm-1">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-2">
+              <div id="lightsaber">
+                  <img class="light-saber"src="http://icons.iconarchive.com/icons/sensibleworld/starwars/1024/Lightsaber-Green-icon.png" alt="jedilightsabersymbol">
+                  Light-Saber
+              </div>
+          </div>
+          <div class="col-sm-2">
+              <div id="magicwand">
+                  <img class="magic-wand"src="https://d30y9cdsu7xlg0.cloudfront.net/png/103934-200.png" alt="harrypotterwandsymbol">
+                  Magic-Wand
+              </div>
+          </div>
+          <div class="col-sm-2">
+              <div id="raygun">
+                  <img class="ray-gun"src="http://palaisdesbeauxarts.at/img/erik/3c_Ray_Gun.png" alt="raygunsymbol">
+                  Ray-Gun
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <div id="thorhammer">
+                  <img class="thor-hammer"src="http://img4.wikia.nocookie.net/__cb20120616105857/clubpenguin/images/e/ea/5155_icon.png" alt="thorhammersymbol">
+                  Thor's-Hammer
+              </div>
+          </div>
+          <div class="col-sm-3">
+          </div>
+      </div>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/javascript/game.js"></script>
+    </container>
+         
+</body>
+</html>

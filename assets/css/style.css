@@ -1,0 +1,45 @@
+body {
+    background-image: url(http://colrd.com/misc/library/pattern/DinPattern/prestige-COD.gif);
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+.row {
+    margin-bottom: 2%;
+    /* margin-top: 5%; */
+    margin-left: 5%;
+}
+h1{
+    color: white;
+    background: rgb(150, 208, 226);
+    font-family: 'Russo One', sans-serif;
+    padding: 40px;
+}
+h2{
+    color: white;
+    font-family: 'Audiowide', cursive;
+    background: rgb(117, 117, 117);
+    padding: 20px;
+}
+h5{
+    background: pink;
+    color: black;
+}
+#wrapper{
+    width: 980px;
+} 
+.light-saber {
+    width: 100px;
+    height: 100px;
+}
+.magic-wand {
+    width: 100px;
+    height: 100px;
+}
+.ray-gun {
+    width: 100px;
+    height: 100px;
+}
+.thor-hammer {
+    width: 100px;
+    height: 100px;
+} 
